@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+		<link rel="stylesheet" type="text/css" href="signup.css">
+    </head>
+ 
+    <body bgcolor="FFA500">
+	<div class="main">
+		<div class="head">
+			<img src="../student/img/abes_logo.png" class="logo" style="length:12%;width:12%;margin-left:10px;margin-top:0px;"/>
+			<input type="submit" value="Search" class="search"/>
+			<input type="text" placeholder="Google Search" name="search" id="search" class="search"/>
+			<div  class="user"><a href="../../admin/login.jsp" style="text-decoration:none;color:#FFA500;">Admin Login&emsp;</a>
+			<a href="" style="text-decoration:none;color:#FFA500;">|&emsp;Faculty Login</a></div>
+			</div><br>
+		<nav>
+			<ul>
+				<li><a href="homepage.jsp">Home</a></li>
+				<li><a href="aboutus.jsp">AboutUs</a></li>
+				<li><a href="../student/login/login.jsp">Student Login</a></li>
+				<li><a href="contactus.jsp">Contact Us</a></li>
+				<li><a href="signup.html">Sign Up</a></li>
+			</ul>
+		</nav>
+		<form action="" method="post">
+		<div class="signup">
+		<h2>Sign Up form </h2><hr><br>
+			Name<font color="red">*</font>:&nbsp;<input type="text" name="sname" id="sname"  style="width:200px;margin-left:81px;" required><br><br>
+			
+			Admission No.<font color="red">*</font>:&nbsp;<input type="text" name="addno" id="addno" maxlength="11" style="width:200px;margin-left:22px;text-transform:uppercase;" required><br><br>
+			
+			Gender<font color="red">*</font>:&nbsp;<input type="radio" name="gender" id="gender" value="male" style="margin-left:78px;" required>Male
+													<input type="radio" name="gender" id="gender" value="female" style="margin-left:72px;" required>Female<br><br>
+													
+			DOB<font color="red">*</font>:&nbsp;<input type="date" name="date" id="date" style="margin-left:87px;width:150px;" required><br><br>
+			
+			Email<font color="red">*</font>:&nbsp;<input type="text" name="email" id="email" style="margin-left:82px;width:200px;" required><br><br>
+			
+			Mobile No.<font color="red">*</font>:&nbsp;<input type="text" name="mobile" id="mobile" maxlength="10" style="margin-left:47px;width:200px;" required><br><br>
+			
+			Password<font color="red">*</font>:&nbsp;<input type="password" name="pass" id="pass" style="margin-left:57px;width:200px;" required><br><br>
+			Confirm Password<font color="red">*</font>:&nbsp;<input type="password" name="rpass" id="rpass" style="margin-left:0px;width:200px;" required><br><br>
+			
+			<input type="submit" value="Register" onclick="validate();" style="margin-left:130px;width:90px;background-color:#FFA500;color:white;">
+			<input type="reset" value="Reset" style="margin-left:30px;width:80px;background-color:#FFA500;color:white;">
+		</div>
+		</form>
+		</div>
+	</body>
+</html>

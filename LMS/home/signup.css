@@ -1,0 +1,100 @@
+			.main
+			{
+				margin-left:200px;
+				margin-right:200px;
+				margin-top:30px;
+			}
+			.head
+			{
+				background-color:white;
+				padding:5px 5px 5px 5px;
+				margin-bottom:-12px;
+			}
+			nav
+			{
+				opacity:1;
+				background-color:white;
+				height:50px;
+				margin-top:-18px;
+				margin-left:0px;
+				margin-right:0px;
+				margin-bottom:-14px;
+			}
+
+
+			nav ul li
+			{
+				list-style-type:none;
+				width:177.5px;
+				float:left;
+				font-size:18px;
+				text-align:center;
+				border-right:1px solid #CCC;
+			}
+			li a
+			{
+				text-decoration:none;
+				color:#FFA500;
+				display:block;
+				line-height:50px;
+				display:block;
+			}
+			li a:hover
+			{
+				background-color:#FFA500;
+				color:white;
+			}
+			
+			ol
+			{
+				margin-top:-20px;
+				font-size:12px;
+				list-style-type:none;
+				padding-bottom:10px;
+			}
+			
+			ol li a
+			{
+				float:right;
+				margin-bottom:-10px;
+			}
+			
+			.search
+			{
+				float:right;
+				margin-right:5px;
+				margin-top:10px;
+
+				
+			}
+			.user
+			{
+				float:right;
+				font-size:11px;
+				margin-top:40px;
+				margin-right:-220px;
+				
+			}
+			input
+			{
+				border-radius: 30px;
+				padding: 2px 6px 2px 6px;
+			}
+			
+			.about
+			{
+				background-color:white;
+				margin-left:200px;
+				margin-right:200px;
+				padding:0px 15px 5px 15px;
+			}
+			
+			.signup
+			{
+				background-color:white;
+				padding-top:10px;
+				padding-left:20px;
+				padding-bottom:10px;
+				margin-top:18px;
+			}
+			
